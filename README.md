@@ -7,9 +7,10 @@ This repository contains the source code and datasets for [MinPrompt: Graph-base
 
 - [Requirements](#requirements)
 - [Overview](#overview)
-- [Data Preparation](#data-preparation)
-- [Training](#training)
-- [Evaluation](#evaluation)
+- [Sentence Graph Construction](#sentence-graph-construction)
+- [Dominating Set Derivation](#dominating-set-derivation)
+- [Question Generation from Dominating Set](#question-generation-from-dominating-set)
+- [Fine-tune](#fine-tune)
 - [Citations](#citations)
 
 ## Requirements
@@ -44,7 +45,7 @@ python graph_dominating_set/src/sentence_graph_dominating_set.py
 python question_gen/distant_supervision/question_generation_from_dominating_set.py
 ```
 
-## Fine-tune the base model 
+## Fine-tune
 ```
 python finetune/src/gotta/run.py
 ```
